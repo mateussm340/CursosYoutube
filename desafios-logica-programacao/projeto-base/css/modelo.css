@@ -1,0 +1,44 @@
+.modelo__horizontal {
+    display: flex;
+}
+
+.modelo__vertical {
+    display: flex;
+    flex-direction: column;
+}
+
+.modelo__horizontal, 
+.modelo__vertical {
+    gap: 1rem;
+}
+
+.modelo__centralizado {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.modelo__quebra {
+    flex-wrap: wrap;
+}
+
+/* Fundo */
+.fundo-adicionar {
+    background: var(--cor-adicionar);
+}
+
+.fundo-reiniciar {
+    background: var(--cor-reiniciar);
+}
+
+.fundo-sortear {
+    background: var(--cor-sortear);
+}
+
+.fundo-erro {
+    background: var(--cor-erro);
+}
+
+.fundo-sucesso {
+    background: var(--cor-sucesso);
+}
