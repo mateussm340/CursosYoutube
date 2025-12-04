@@ -26,6 +26,10 @@ body {
     font-family: 'JetBrains Mono', sans-serif;
 }
 
+a {
+    text-decoration: none;
+}
+
 .conteudo {
     padding: 2rem;
 }
