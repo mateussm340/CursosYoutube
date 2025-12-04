@@ -1,0 +1,25 @@
+.fundo-javascript {
+    background: #f4e31c;
+    color: var(--cor-fundo);
+    font-weight: bold;
+}
+
+.projeto {
+    border: 0.3rem solid var(--cor-texto);
+    border-radius: 0.5rem;
+    padding: 1rem;
+}
+
+.projetos {
+    border-top: 0.3rem solid var(--cor-texto);
+    padding-top: 2rem;
+    width: 100%;
+
+    flex: 1 1 33.3%;
+}
+
+@media screen and (max-width: 926px) {
+    .projeto {
+        flex: 1 1 40%;
+    }
+}
